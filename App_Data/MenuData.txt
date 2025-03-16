@@ -1,0 +1,140 @@
+Category: Mac & Cheese Classics
+
+Name: Spicy Mac & Cheese
+Price: RM14.99
+Description: Our all new Smoky Spicy Mac & Cheese is an elevated version of the ever classic comfort food. For those who want to take it up a few levels on the Scoville Scale. We have made it spicy, smoky and cheesy!
+Image:
+
+Name: Creamy Mac & Cheese
+Price: RM13.99
+Description: Super indulgent, creamy bowl of perfection served with golden cheesy sauce, macaroni pasta, chicken slices and stringy Mozzarella toppings. This is the dish of your dreams.
+Image:
+
+Name: Kiddie Mac & Cheese
+Price: RM9.99
+Description: Our all-time favorite now in the right size for smaller tummies!
+Image:
+
+Category: Nasi Nasi Nasi
+
+Name: Ayam Goreng Masak Lomak
+Price: RM12.99
+Description: White rice with sous vide Ayam Goreng and Kuah Lomak.
+Image:
+
+Name: Popcorn Ayam Gepuk Sambal Gajus
+Price: RM12.99
+Description: White rice with Popcorn Chicken and Sambal Gajus.
+Image:
+
+Name: Buttermilk Chicken
+Price: RM12.99
+Description: White rice with Popcorn Chicken and Buttermilk Sauce.
+Image:
+
+Name: Ayam Gepuk with Sambal Gajus
+Price: RM12.99
+Description: White rice with sous vide Ayam Goreng and Sambal Gajus.
+Image:
+
+Category: Pasta
+
+Name: Spaghetti Chicken Bolognese
+Price: RM 12.99
+Description: For an honest and fuss free meal, hit us up for this spag bog, topped with minced chicken cooked in tomato sauce, parmesan cheese along with parsley garnish on top. Makan time has never been so satisfying!
+Image:
+
+Name: Spaghetti Chicken Carbonara
+Price: RM 13.99
+Description: A Carbonara that is creamy and full of flavour. Blanketing perfectly cooked spaghetti and chicken ham slices. Our Spaghetti Carbonara is rich, satisfying, and a real treat.
+Image:
+
+Category: Kiddie Meals
+
+Name: Kiddie Spaghetti Bolognese + Lemonade
+Price: RM 10.99
+Description: Imagine a heaping plate of golden, crispy French fries, perfectly seasoned and cooked to a delightful crunch. Topped generously with a rich and savory chicken Bolognese sauce, the sauce is a hearty blend of tender ground chicken, aromatic herbs, and a velvety tomato base, simmered to perfection. Melted mozzarella cheese cascades over the top, creating a creamy, gooey layer that adds a deliciously indulgent touch. As you dig in, each bite offers a satisfying contrast of textures—crispy fries, savory sauce, and gooey cheese—all melding together for a comfort food experience that’s both familiar and exciting.
+Image:
+
+Name: Kiddie Mac & Cheese + Lemonade
+Price: RM 10.99
+Description: Kids love our Mac and Cheese! Treat yours with a perfectly portioned Kids' Mac and Cheese and a fresh and tasty Lemonade.
+Image:
+
+Name: Nuggets & Fries + Lemonade
+Price: RM 11.49
+Description: It is what it is. Nuggets, fries and lemonade!
+Image:
+
+Name: Popcorn Chicken + Fries + Lemonade
+Price: RM 11.99
+Description: It is what it is. Popcorn Chcicken, fries and lemonade
+Image:
+
+Category: Sauces & Sambals
+
+Name: Buttermilk Sauce
+Price: RM5.49
+Description: -
+Image:
+
+Name: Sambal Gajus
+Price: RM3.49
+Description: -
+Image:
+
+Category: Snacks
+
+Name: Steamed White Rice
+Price: RM2.49
+Description: Pair your delicious meal with an extra portion of steamed white rice, garnished with fried shallots and spring onions. Sometimes a little more rice is necessary.
+Image:
+
+Name: Ayam Goreng (Quarter Leg)
+Price: RM7.99
+Description: Our Ayam Goreng! A whole full-sized chicken quarter leg, marinated in a blend of traditional spices and herbs, then sous-vide slow cooked at the perfect temperature to get it juicy. To finish it deep-fried until crispy, golden exterior while keeping the inside succulently moist. Go for it!
+Image:
+
+Name: Chicken Nuggets (3pc)
+Price: RM5.99
+Description: Golden, crispy bites of tender chicken, seasoned and perfectly fried. Served hot with your sos chili, for a satisfying crunch in every bite.
+Image:
+
+Name: Popcorn Chicken
+Price: RM6.99
+Description: Now available: Pop's delicious Popcorn Chicken in the standalone variant. If you're craving some delicious fried chicken bites, this is for you.
+Image:
+
+Name: Keropok
+Price: RM1.29
+Description: Vegetable Crackers
+Image:
+
+Name: French Fries
+Price: RM 7.49
+Description: Introducing our crispy and delicious French fries, the perfect addition to any meal or a satisfying snack on their own. Made from premium potatoes and cooked to golden perfection, each bite is crispy on the outside and fluffy on the inside, delivering a mouth-watering experience that will leave you wanting more.
+Image:
+
+Category: Drinks
+
+Name: Iced Bandung Vanilla
+Price: RM7.49
+Description: -
+Image:
+
+Name: Iced Lemonade
+Price: RM4.49
+Description: This irresistible thirst-quencher is literally the perfect match for any meal. Cold, fresh, and zesty, our Iced Lemonade will get you all perked up for the day!
+Image:
+
+Name: Bottle of Air (500ml)
+Price: RM4.49
+Description: Nothing like a bottle of fresh drinking water to keep hydrated. Also vital palate cleanser when tasting different Pop Meals too!
+Image:
+
+Name: Iced Peach Tea
+Price: RM4.49
+Description: Our refreshing iced peach tea is the perfect blend of juicy peaches and premium tea, creating a delicious and invigorating beverage that's perfect for any occasion. With a delightful combination of sweetness and tartness, it's the ideal thirst-quencher on a hot summer day or a refreshing pick-me-up any time of the year.
+Image:
+
+

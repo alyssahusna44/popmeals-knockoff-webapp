@@ -1,0 +1,85 @@
+Stored Procedures
+
+CREATE PROCEDURE InsertCustomer
+    @Name NVARCHAR(100),
+    @Email NVARCHAR(100),
+    @PhoneNumber NVARCHAR(20),
+    @Address NVARCHAR(255),
+    @PaymentMethod NVARCHAR(50)
+AS
+BEGIN
+    INSERT INTO Customers (Name, Email, PhoneNumber, Address, PaymentMethod)
+    VALUES (@Name, @Email, @PhoneNumber, @Address, @PaymentMethod);
+END;
+
+CREATE PROCEDURE GetCustomerByID
+    @CustomerID INT
+AS
+BEGIN
+    SELECT * FROM Customers WHERE CustomerID = @CustomerID;
+END;
+
+CREATE PROCEDURE UpdateCustomer
+    @CustomerID INT,
+    @Name NVARCHAR(100),
+    @Email NVARCHAR(100),
+    @PhoneNumber NVARCHAR(20),
+    @Address NVARCHAR(255),
+    @PaymentMethod NVARCHAR(50)
+AS
+BEGIN
+    UPDATE Customers
+    SET Name = @Name, Email = @Email, PhoneNumber = @PhoneNumber, 
+        Address = @Address, PaymentMethod = @PaymentMethod
+    WHERE CustomerID = @CustomerID;
+END;
+
+CREATE PROCEDURE InsertOrder
+    @CustomerID INT,
+    @OrderDate DATETIME,
+    @OrderTime TIME,
+    @OrderStatus NVARCHAR(50),
+    @TotalPrice DECIMAL(10, 2)
+AS
+BEGIN
+    INSERT INTO Orders (CustomerID, OrderDate, OrderTime, OrderStatus, TotalPrice)
+    VALUES (@CustomerID, @OrderDate, @OrderTime, @OrderStatus, @TotalPrice);
+END;
+
+CREATE PROCEDURE GetOrdersByCustomer
+    @CustomerID INT
+AS
+BEGIN
+    SELECT * FROM Orders WHERE CustomerID = @CustomerID;
+END;
+
+CREATE PROCEDURE InsertOrderItem
+    @OrderID INT,
+    @MenuItemID INT,
+    @Quantity INT,
+    @Price DECIMAL(10, 2)
+AS
+BEGIN
+    INSERT INTO OrderItems (OrderID, MenuItemID, Quantity, Price)
+    VALUES (@OrderID, @MenuItemID, @Quantity, @Price);
+END;
+
+CREATE PROCEDURE UpdateOrderStatus
+    @OrderID INT,
+    @OrderStatus NVARCHAR(50)
+AS
+BEGIN
+    UPDATE Orders
+    SET OrderStatus = @OrderStatus
+    WHERE OrderID = @OrderID;
+END;
+
+CREATE PROCEDURE GetSalesData
+    @StartDate DATETIME,
+    @EndDate DATETIME
+AS
+BEGIN
+    SELECT * FROM SalesData
+    WHERE Date BETWEEN @StartDate AND @EndDate;
+END;
+

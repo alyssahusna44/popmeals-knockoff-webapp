@@ -1,0 +1,110 @@
+﻿/* General Styles */
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0b0c6c;
+    padding: 10px 20px;
+    color: white;
+}
+
+    .header .logo img {
+        height: 50px;
+    }
+
+    .header .nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+
+        .header .nav ul li {
+            display: inline-block;
+        }
+
+            .header .nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+                .header .nav ul li a:hover {
+                    text-decoration: underline;
+                }
+
+/* Dropdown Menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    list-style: none;
+    right: 0;
+    text-align: left;
+    z-index: 1000;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    padding: 5px 10px;
+}
+
+    .dropdown-menu li a {
+        color: #0b0c6c;
+        text-decoration: none;
+    }
+
+        .dropdown-menu li a:hover {
+            text-decoration: underline;
+        }
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #eab560;
+    color: #0b0c6c;
+    font-weight: bold;
+}
+.notifications {
+    margin: 20px;
+    color: #0b0c6c;
+    font-size: 16px;
+}
+
+    .notifications ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .notifications li {
+        background-color: #f9f9f9;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-left: 5px solid #eab560;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+        .notifications li strong {
+            color: #0b0c6c;
+        }
+
+.no-notifications {
+    color: #666;
+    font-style: italic;
+}
+

@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CustomerMaster.master.cs" Inherits="PopMeals_WebApp.CustomerMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="UTF-8">
+    <title>PopMeals - Customer</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="/CustomerPages/Styles.css" />
+    <link rel="stylesheet" type="text/css" href="/CustomerPages/ModalStyle.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo">
+                <asp:HyperLink NavigateUrl="~/CustomerPages/Menu.aspx" runat="server">
+                    <asp:Image runat="server" ImageUrl="~/Images/pop-icon-logo.png" AlternateText="PopMeals Logo" />
+                </asp:HyperLink>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="/CustomerPages/Menu.aspx">Menu</a></li>
+                    <li><a href="/CustomerPages/MyOrders.aspx">My Orders</a></li>
+                    <li>
+                        <asp:LinkButton ID="lnkLogin" runat="server" CssClass="link-button" OnClick="Login_Click">Sign In</asp:LinkButton>
+                    </li>
+                    <li><a href="/CustomerPages/Cart.aspx"><img src="/Images/cart-icon.png" alt="Cart" /></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>© 2025 PopMeals</p>
+        </div>
+    </form>
+</body>
+</html>
+

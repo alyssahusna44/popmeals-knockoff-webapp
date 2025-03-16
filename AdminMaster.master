@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="PopMeals_WebApp.AdminPages.AdminMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="UTF-8">
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server">PopMeals - Admin</asp:ContentPlaceHolder></title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="~/AdminPages/Styles.css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-left">
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="AdminDashboard.aspx">
+                        <img src="~/Images/pop-icon-logo.png" alt="PopMeals Logo" />
+                    </a>
+                </div>
+                <!-- Greetings and Dropdown -->
+                <div class="admin-greeting">
+                    Hi, <asp:Label ID="lblAdminName" runat="server" CssClass="admin-name"></asp:Label>
+                    <div class="dropdown">
+                        <ul class="dropdown-menu">
+                            <li><a href="AdminProfile.aspx">My Profile</a></li>
+                            <li><a href="#" onclick="document.getElementById('btnLogout').click()">Log Out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <div class="nav">
+                <ul>
+                    <li><a href="AdminDashboard.aspx">Dashboard</a></li>
+                    <li><a href="AdminOrders.aspx">Manage Orders</a></li>
+                    <li><a href="AdminSales.aspx">View Sales</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>© 2025 PopMeals Admin Panel</p>
+        </div>
+
+        <!-- Hidden Logout Button -->
+        <asp:Button ID="btnLogout" runat="server" Text="Logout" OnClick="btnLogout_Click" CssClass="btn-logout" Visible="false" />
+    </form>
+</body>
+</html>
+
+
+
